@@ -6,3 +6,6 @@ rm(list=ls())
 
 data <- mtcars
 hist(data$mpg)
+
+#per fer un pie cal la taula
+pie(table(data$cyl))
